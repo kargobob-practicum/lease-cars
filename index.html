@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/adaptive.css" />
     <title>Leasing From D&M</title>
   </head>
   <body>
@@ -23,6 +24,11 @@
               <img src="./images/logo.svg" alt="" class="logo__img" />
             </a>
             <nav class="menu">
+              <button class="menu__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
               <ul class="menu__list">
                 <li class="menu__list-item">
                   <a href="./new-cars.html" class="menu__list-link">NEW CARS</a>
@@ -67,83 +73,88 @@
           </div>
         </div>
         <section class="info">
-          <h2 class="info__header">Why Lease with D&M?</h2>
-          <ul class="cards">
-            <li class="cards__item">
-              <img src="./images/cards-car.svg" alt="" class="cards__image" />
-              <h3 class="cards__header">Top Dealers</h3>
-              <p class="cards__text">
-                TrueCar Certified Dealers compete for your business by providing discounted pricing
-                on in-stock inventory.
-              </p>
-            </li>
-            <li class="cards__item">
-              <img src="./images/cards-percent.svg" alt="" class="cards__image" />
-              <h3 class="cards__header">Discounted Pricing</h3>
-              <p class="cards__text">
-                View local inventory from the comfort of home and get access to guaranteed savings
-                on the car of your choice.
-              </p>
-            </li>
-            <li class="cards__item">
-              <img src="./images/cards-payments.svg" alt="" class="cards__image" />
-              <h3 class="cards__header">Lower Payments</h3>
-              <p class="cards__text">
-                Get discounted pricing when you shop for a car or truck using TrueCar and save on
-                your lease payment.
-              </p>
-            </li>
-            <li class="cards__item">
-              <img src="./images/cards-upgrade.svg" alt="" class="cards__image" />
-              <h3 class="cards__header">Easy Upgrade</h3>
-              <p class="cards__text">
-                Easy to upgrade to the newest vehicle model every few years if you would like to be
-                modern and comfortable
-              </p>
-            </li>
-          </ul>
+          <div class="container">
+            <h2 class="info__header section-title">Why Lease with D&M?</h2>
+            <ul class="cards">
+              <li class="cards__item">
+                <img src="./images/cards-car.svg" alt="" class="cards__image" />
+                <h3 class="cards__header">Top Dealers</h3>
+                <p class="cards__text">
+                  TrueCar Certified Dealers compete for your business by providing discounted
+                  pricing on in-stock inventory.
+                </p>
+              </li>
+              <li class="cards__item">
+                <img src="./images/cards-percent.svg" alt="" class="cards__image" />
+                <h3 class="cards__header">Discounted Pricing</h3>
+                <p class="cards__text">
+                  View local inventory from the comfort of home and get access to guaranteed savings
+                  on the car of your choice.
+                </p>
+              </li>
+              <li class="cards__item">
+                <img src="./images/cards-payments.svg" alt="" class="cards__image" />
+                <h3 class="cards__header">Lower Payments</h3>
+                <p class="cards__text">
+                  Get discounted pricing when you shop for a car or truck using TrueCar and save on
+                  your lease payment.
+                </p>
+              </li>
+              <li class="cards__item">
+                <img src="./images/cards-upgrade.svg" alt="" class="cards__image" />
+                <h3 class="cards__header">Easy Upgrade</h3>
+                <p class="cards__text">
+                  Easy to upgrade to the newest vehicle model every few years if you would like to
+                  be modern and comfortable
+                </p>
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="leasing-info">
-          <h2 class="leasing-info__header">How Does Leasing Work?</h2>
-          <p class="leasing-info__text">
-            Leasing a vehicle is essentially entering into a long term rental agreement for that
-            vehicle. Unlike a traditional car purchase, you don’t actually own the vehicle. Instead,
-            a leasing company purchases the vehicle from the dealer on your behalf and then you make
-            monthly payments to the leasing company for the duration of your lease. Some leases
-            however, do provide the option to purchase the vehicle at the end of the lease.
-          </p>
-          <h3 class="leasing-info__rules">
-            Similar to a short term car rental, there are rules that define:
-          </h3>
-          <ul class="rules-info">
-            <li class="rules-info__item">
-              <img src="./images/first-rules.svg" alt="" class="rules-info__image" />
-              <p class="rules-info__text">
-                How much you can drive, stated as annual miles (excess miles are charged at a
-                specified rate)
-              </p>
-            </li>
-            <li class="rules-info__item">
-              <img src="./images/second-rules.svg" alt="" class="rules-info__image" />
-              <p class="rules-info__text">
-                Types of damage that you may be liable for at the end of your lease
-              </p>
-            </li>
-            <li class="rules-info__item">
-              <img src="./images/third-rules.svg" alt="" class="rules-info__image" />
-              <p class="rules-info__text">
-                The procedures and costs when you return the vehicle at the end of your lease
-              </p>
-            </li>
-          </ul>
-          <p class="leasing-info__bottom-text">
-            Lease contracts are a commitment and ending them early can be difficult and expensive so
-            it is important to consider your circumstances carefully before you decide.
-          </p>
+          <div class="container">
+            <h2 class="leasing-info__header section-title">How Does Leasing Work?</h2>
+            <p class="leasing-info__text">
+              Leasing a vehicle is essentially entering into a long term rental agreement for that
+              vehicle. Unlike a traditional car purchase, you don’t actually own the vehicle.
+              Instead, a leasing company purchases the vehicle from the dealer on your behalf and
+              then you make monthly payments to the leasing company for the duration of your lease.
+              Some leases however, do provide the option to purchase the vehicle at the end of the
+              lease.
+            </p>
+            <h3 class="leasing-info__rules">
+              Similar to a short term car rental, there are rules that define:
+            </h3>
+            <ul class="rules-info">
+              <li class="rules-info__item">
+                <img src="./images/first-rules.svg" alt="" class="rules-info__image" />
+                <p class="rules-info__text">
+                  How much you can drive, stated as annual miles (excess miles are charged at a
+                  specified rate)
+                </p>
+              </li>
+              <li class="rules-info__item">
+                <img src="./images/second-rules.svg" alt="" class="rules-info__image" />
+                <p class="rules-info__text">
+                  Types of damage that you may be liable for at the end of your lease
+                </p>
+              </li>
+              <li class="rules-info__item">
+                <img src="./images/third-rules.svg" alt="" class="rules-info__image" />
+                <p class="rules-info__text">
+                  The procedures and costs when you return the vehicle at the end of your lease
+                </p>
+              </li>
+            </ul>
+            <p class="leasing-info__bottom-text">
+              Lease contracts are a commitment and ending them early can be difficult and expensive
+              so it is important to consider your circumstances carefully before you decide.
+            </p>
+          </div>
         </section>
         <section class="video">
           <div class="container">
-            <h2 class="video__title">WELCOME TO D&M LEASING</h2>
+            <h2 class="video__title section-title">WELCOME TO D&M LEASING</h2>
             <h3 class="video__subtitle">Find out how easy it is to lease from D&M</h3>
             <iframe
               src="https://www.youtube.com/embed/J2Izeq4k8IA"
@@ -155,7 +166,7 @@
         </section>
         <section class="important-things">
           <div class="container">
-            <h2 class="important-things__title">Important Things to Consider</h2>
+            <h2 class="important-things__title section-title">Important Things to Consider</h2>
             <p class="important-things__text">
               Depending on your circumstances and what is important to you, a lease could be a great
               option for your next vehicle. Below are some important factors that may influence your
